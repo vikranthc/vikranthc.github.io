@@ -1,0 +1,9 @@
+= Introduction to F#
+:hp-tags: F#, Functional Programming
+
+[source,ruby]
+----
+def a =
+	a + b
+end
+----
