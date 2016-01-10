@@ -6,7 +6,7 @@ Object - say something to express one's disapproval of or disagreement with some
 ____
 
 
-[soure, fsharp]
+[source, fsharp]
 ----
 
 module Stats
