@@ -1,9 +1,8 @@
 = Introduction to F#
 :hp-tags: F#, Functional Programming
 
-[source,ruby]
+[source, fsharp]
 ----
-def a
-  a + b
-end
+let a = 1
+
 ----
