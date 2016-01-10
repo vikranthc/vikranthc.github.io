@@ -1,8 +1,5 @@
 = Introduction to F#
 :hp-tags: F#, Functional Programming
 
-[source, fsharp]
-----
-let a = 1
 
-----
+
