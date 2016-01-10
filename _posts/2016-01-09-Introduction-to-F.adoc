@@ -3,7 +3,7 @@
 
 [source,ruby]
 ----
-def a =
+def a
   a + b
 end
 ----
