@@ -28,7 +28,6 @@
 
     {{! Styles and Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/uno.css"}}" />
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/monokai.min.css">
 
     {{! Ghost Magic }}
     {{ghost_head}}
@@ -56,9 +55,6 @@
 
     {{! The main JavaScript file for Casper }}
     <script type="text/javascript" src="{{asset "js/main.js"}}"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>  
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/languages/fsharp.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>  
     
     {{#if @blog.googleAnalytics}}
     <script>
