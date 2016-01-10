@@ -6,6 +6,19 @@ Object - say something to express one's disapproval of or disagreement with some
 ____
 
 
+[soure, fsharp]
+----
+
+module Stats
+
+type ModeOfTransport =
+	| Walking
+	| Car
+   	| Bus of int
+let a  = 1
+----
+
+
 
 
 
