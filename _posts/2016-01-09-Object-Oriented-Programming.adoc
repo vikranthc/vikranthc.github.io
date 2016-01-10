@@ -33,6 +33,18 @@ A preface about http://asciidoc.org[AsciiDoc].
 puts "Hello, World!"
 
 
+[cols="2*"]
+|===
+|Firefox
+|Web Browser
+
+|Ruby
+|Programming Language
+
+|TorqueBox
+|Application Server
+|===
+
 
 
 
