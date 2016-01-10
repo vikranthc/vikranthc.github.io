@@ -32,6 +32,18 @@ A preface about http://asciidoc.org[AsciiDoc].
 [source,ruby]
 puts "Hello, World!"
 
+[source, csharp]
+namespace abc
+{
+	public class Hello
+    {
+    	public static void Main(string[] args)
+        {
+        	Console.WriteLine("Hello world");
+        }
+    }
+}
+
 
 [cols="2*"]
 |===
