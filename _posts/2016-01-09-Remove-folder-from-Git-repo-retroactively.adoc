@@ -25,5 +25,11 @@ git reflog expire --expire=now --all
 git gc --prune=now --aggressive
 ---------------------
 
+Now you are ready to push the rewritten repo history upstream.
+Warning, this will rewrite history, forcing downstream repos to re-clone the repo.
+
+[source, bash]
+git push -f origin master
+
 
 
