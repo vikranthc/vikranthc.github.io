@@ -1,4 +1,12 @@
-= Look, my first blog
+= Remove nuget packages folder from Git repo retroactively
 :hp-tags: blog, hubpress
 
+
+git fiter-branch -f --tree-filter 'rm -rf --cached --ignore-unmatch packages' --prune-empty -- --all
+
+git show-ref
+
+git reflog expire --expire=now --all
+
+git gc --prune=now --aggressive
 
