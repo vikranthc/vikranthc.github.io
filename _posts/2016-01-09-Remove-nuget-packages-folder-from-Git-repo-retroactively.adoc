@@ -4,7 +4,7 @@
 
 [source, bash, numbered]
 -----------------------------
-git fiter-branch -f --tree-filter 'rm -rf --cached --ignore-unmatch packages' --prune-empty -- --all
+git fiter-branch -f --index-filter 'rm -rf --cached --ignore-unmatch packages' --prune-empty -- --all
 
 git show-ref
 
