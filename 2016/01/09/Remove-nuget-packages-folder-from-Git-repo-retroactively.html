@@ -32,16 +32,16 @@
     <meta property="og:site_name" content="Vikranth Ceakala" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Remove nuget packages folder from Git repo retroactively" />
-    <meta property="og:description" content="git fiter-branch -f --tree-filter &#x27;rm -rf --cached --ignore-unmatch packages&#x27; --prune-empty&amp;#8201;&amp;#8212;&amp;#8201;--all git show-ref git reflog expire --expire=now --all git gc --prune=now --aggressive..." />
+    <meta property="og:description" content="git fiter-branch -f --tree-filter &#x27;rm -rf --cached --ignore-unmatch packages&#x27; --prune-empty -- --all git show-ref git reflog expire --expire=now --all git gc --prune=now --aggressive..." />
     <meta property="og:url" content="https://vikranthc.github.io/2016/01/09/Remove-nuget-packages-folder-from-Git-repo-retroactively.html" />
     <meta property="article:published_time" content="2016-01-09T07:00:00.000Z" />
-    <meta property="article:modified_time" content="2016-06-28T22:56:00.613Z" />
+    <meta property="article:modified_time" content="2016-06-28T23:00:37.634Z" />
     <meta property="article:tag" content="blog" />
     <meta property="article:tag" content="hubpress" />
     
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Remove nuget packages folder from Git repo retroactively" />
-    <meta name="twitter:description" content="git fiter-branch -f --tree-filter &#x27;rm -rf --cached --ignore-unmatch packages&#x27; --prune-empty&amp;#8201;&amp;#8212;&amp;#8201;--all git show-ref git reflog expire --expire=now --all git gc --prune=now --aggressive..." />
+    <meta name="twitter:description" content="git fiter-branch -f --tree-filter &#x27;rm -rf --cached --ignore-unmatch packages&#x27; --prune-empty -- --all git show-ref git reflog expire --expire=now --all git gc --prune=now --aggressive..." />
     <meta name="twitter:url" content="https://vikranthc.github.io/2016/01/09/Remove-nuget-packages-folder-from-Git-repo-retroactively.html" />
     
     <script type="application/ld+json">
@@ -59,9 +59,9 @@
     "headline": "Remove nuget packages folder from Git repo retroactively",
     "url": "https://vikranthc.github.io/2016/01/09/Remove-nuget-packages-folder-from-Git-repo-retroactively.html",
     "datePublished": "2016-01-09T07:00:00.000Z",
-    "dateModified": "2016-06-28T22:56:00.613Z",
+    "dateModified": "2016-06-28T23:00:37.634Z",
     "keywords": "blog,  hubpress",
-    "description": "git fiter-branch -f --tree-filter &#x27;rm -rf --cached --ignore-unmatch packages&#x27; --prune-empty&amp;#8201;&amp;#8212;&amp;#8201;--all git show-ref git reflog expire --expire=now --all git gc --prune=now --aggressive..."
+    "description": "git fiter-branch -f --tree-filter &#x27;rm -rf --cached --ignore-unmatch packages&#x27; --prune-empty -- --all git show-ref git reflog expire --expire=now --all git gc --prune=now --aggressive..."
 }
     </script>
 
@@ -139,17 +139,16 @@
     </header>
 
     <section class="post tag-blog tag-hubpress">
-      <div class="paragraph">
-<p>git fiter-branch -f --tree-filter 'rm -rf --cached --ignore-unmatch packages' --prune-empty&#8201;&#8212;&#8201;--all</p>
+      <div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">git fiter-branch -f --tree-filter 'rm -rf --cached --ignore-unmatch packages' --prune-empty -- --all
+
+git show-ref
+
+git reflog expire --expire=now --all
+
+git gc --prune=now --aggressive</code></pre>
 </div>
-<div class="paragraph">
-<p>git show-ref</p>
-</div>
-<div class="paragraph">
-<p>git reflog expire --expire=now --all</p>
-</div>
-<div class="paragraph">
-<p>git gc --prune=now --aggressive</p>
 </div>
     </section>
 
