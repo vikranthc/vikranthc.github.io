@@ -23,6 +23,8 @@ git show-ref
 git reflog expire --expire=now --all
 
 git gc --prune=now --aggressive
+
+git update-ref -d refs/original/refs/heads/master
 ---------------------
 
 Now you are ready to push the rewritten repo history upstream.
