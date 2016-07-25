@@ -7,7 +7,7 @@ For example if you want to remove packages folder from the repo history you woul
 
 [source, bash, numbered]
 -----------------------------
-git fiter-branch -f --index-filter 'rm -rf --cached --ignore-unmatch packages' --prune-empty -- --all
+git filter-branch -f --index-filter "git rm -rf --cached --ignore-unmatch src/MyPrestige.Customer/wwwroot/lib" --prune-empty -- --all
 
 -----------------------------
 
