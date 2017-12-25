@@ -30,7 +30,7 @@ git update-ref -d refs/original/refs/heads/master
 Now you are ready to push the rewritten repo history upstream.
 Warning, this will rewrite history, forcing downstream repos to re-clone the repo.
 
-[source, bash]
+[source, bash, numbered]
 git push -f origin master
 
 
